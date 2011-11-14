@@ -1,5 +1,5 @@
-maintainer        "Opscode, Inc."
-maintainer_email  "cookbooks@opscode.com"
+maintainer        "Retresco GmbH"
+maintainer_email  "cookbooks@rtrsupport.de"
 license           "Apache 2.0"
 description       "Installs CouchDB package and starts service"
 long_description  <<-EOH
@@ -9,7 +9,7 @@ installed via some other method, either a backported package, or compiled
 directly from source. CouchDB is available on Red Hat-based systems through
 the EPEL Yum Repository.
 EOH
-version           "0.14.1"
+version           "0.14.2"
 depends           "erlang"
 recipe            "couchdb", "Installs and configures CouchDB package"
 recipe            "couchdb::source", "Installs and configures CouchDB from source"
